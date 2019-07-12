@@ -1,0 +1,21 @@
+header {
+  background-color: #5B1214;
+  height: 100px;
+  width: 100%; }
+
+#topnews {
+  background-color: #DEDEDE;
+  height: 500px;
+  width: 100%; }
+
+#popular {
+  background-color: darkgrey;
+  height: 500px;
+  width: 100%; }
+
+footer {
+  background-color: black;
+  height: 200px;
+  width: 100%; }
+
+/*# sourceMappingURL=style.css.map */
