@@ -27,14 +27,68 @@ li a {
   text-decoration: none; }
 
 #topnews {
+  background-color: grey;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  justify-content: space-around;
+  align-content: space-evenly; }
+
+.topbalken {
   background-color: #DEDEDE;
-  height: 500px;
-  width: 100%; }
+  height: 30px;
+  width: 100%;
+  color: #4D4D4D;
+  margin: auto;
+  margin-top: 10px;
+  font-size: 25px;
+  padding-left: 5px; }
+
+.art {
+  height: 180px;
+  width: 220px;
+  display: flex;
+  flex-direction: column; }
+
+#ad {
+  height: 170px;
+  width: 220px; }
+
+.articleimg {
+  width: 220px;
+  height: 130px; }
+
+.articletext {
+  width: 220px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  position: relative;
+  text-align: left;
+  font-size: 0.9em; }
+
+.image {
+  width: 100%;
+  height: auto;
+  overflow: hidden; }
+
+.jpg {
+  width: 100%;
+  height: 130px;
+  overflow: hidden; }
 
 #popular {
   background-color: darkgrey;
-  height: 500px;
-  width: 100%; }
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: row;
+  margin-top: 10px;
+  align-content: space-around;
+  justify-content: space-evenly; }
 
 footer {
   background-color: black;
