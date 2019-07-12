@@ -19,8 +19,11 @@ ul
 	display: flex
 	padding: 0
 	margin: 0
-	justify-content: space-evenly
+	justify-content: center
 	align-items: center
+
+li
+	padding: 5px
 
 
 li a
@@ -61,7 +64,7 @@ li a
 
 .articleimg
 	width: 220px
-	height: 130px
+	height: 120px
 
 .articletext
 	width: 220px
@@ -71,11 +74,13 @@ li a
 	position: relative
 	text-align: left
 	font-size: 0.9em
+	padding-top: 10px
+
 
 .image
 	width: 100%
 	height: auto
-	overflow: hidden
+	object-fit: cover
 
 .jpg
 	width: 100%
@@ -93,9 +98,21 @@ li a
 	flex-direction: row
 	margin-top: 10px
 	align-content: space-around
-	justify-content: space-evenly
+	justify-content: space-around
 
 footer
 	background-color: black
-	height: 200px
+	display: flex
+	flex-direction: column
+	align-items: center
+	justify-content: space-evenly
+	height: 150px
 	width: 100%
+
+#foottext
+	color: white
+
+#footlist
+	li
+		padding: 8px
+
