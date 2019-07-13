@@ -7,6 +7,9 @@ header {
   height: auto;
   width: 100%; }
 
+body {
+  font-family: "Chivo", sans-serif; }
+
 #logo {
   padding: 10px; }
 
